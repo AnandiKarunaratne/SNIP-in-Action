@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1748001540.8647401" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1748001540.8647401</text>
+    </name>
+    <page id="n0">
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'IV Antibiotics', 'fPAW1Vtr54B'}, {'ER Registration'})">
+        <name>
+          <text>({'IV Antibiotics', 'fPAW1Vtr54B'}, {'ER Registration'})</text>
+        </name>
+      </place>
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'', 'Return ER', 'ER Sepsis Triage'}, {'IV Antibiotics'})">
+        <name>
+          <text>({'', 'Return ER', 'ER Sepsis Triage'}, {'IV Antibiotics'})</text>
+        </name>
+      </place>
+      <place id="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})">
+        <name>
+          <text>({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})</text>
+        </name>
+      </place>
+      <place id="({'IV Antibiotics'}, {'ER Registration', 'Release B'})">
+        <name>
+          <text>({'IV Antibiotics'}, {'ER Registration', 'Release B'})</text>
+        </name>
+      </place>
+      <transition id="Release C">
+        <name>
+          <text>Release C</text>
+        </name>
+      </transition>
+      <transition id="">
+        <name>
+          <text></text>
+        </name>
+      </transition>
+      <transition id="CRP">
+        <name>
+          <text>CRP</text>
+        </name>
+      </transition>
+      <transition id="Admission IC">
+        <name>
+          <text>Admission IC</text>
+        </name>
+      </transition>
+      <transition id="ER Triage">
+        <name>
+          <text>ER Triage</text>
+        </name>
+      </transition>
+      <transition id="Return ER">
+        <name>
+          <text>Return ER</text>
+        </name>
+      </transition>
+      <transition id="ER Registration">
+        <name>
+          <text>ER Registration</text>
+        </name>
+      </transition>
+      <transition id="ER Sepsis Triage">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+      </transition>
+      <transition id="IV Liquid">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+      </transition>
+      <transition id="Leucocytes">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+      </transition>
+      <transition id="Release D">
+        <name>
+          <text>Release D</text>
+        </name>
+      </transition>
+      <transition id="LacticAcid">
+        <name>
+          <text>LacticAcid</text>
+        </name>
+      </transition>
+      <transition id="Release A">
+        <name>
+          <text>Release A</text>
+        </name>
+      </transition>
+      <transition id="Release B">
+        <name>
+          <text>Release B</text>
+        </name>
+      </transition>
+      <transition id="fPAW1Vtr54B">
+        <name>
+          <text>fPAW1Vtr54B</text>
+        </name>
+      </transition>
+      <transition id="Kg">
+        <name>
+          <text>Kg</text>
+        </name>
+      </transition>
+      <transition id="tCe">
+        <name>
+          <text>tCe</text>
+        </name>
+      </transition>
+      <transition id="Admission NC">
+        <name>
+          <text>Admission NC</text>
+        </name>
+      </transition>
+      <transition id="t7FxNN7">
+        <name>
+          <text>t7FxNN7</text>
+        </name>
+      </transition>
+      <transition id="IV Antibiotics">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+      </transition>
+      <transition id="B43xV1fSAeWHXpzdU">
+        <name>
+          <text>B43xV1fSAeWHXpzdU</text>
+        </name>
+      </transition>
+      <transition id="DC0u59eMx9j">
+        <name>
+          <text>DC0u59eMx9j</text>
+        </name>
+      </transition>
+      <transition id="Release E">
+        <name>
+          <text>Release E</text>
+        </name>
+      </transition>
+      <arc id="5013819520" source="Release E" target="end"/>
+      <arc id="5013823104" source="Kg" target="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})"/>
+      <arc id="5093381008" source="start" target="CRP"/>
+      <arc id="5093385488" source="start" target="ER Sepsis Triage"/>
+      <arc id="5013818512" source="Release D" target="end"/>
+      <arc id="5013823888" source="CRP" target="end"/>
+      <arc id="5013827472" source="({'', 'Return ER', 'ER Sepsis Triage'}, {'IV Antibiotics'})" target="IV Antibiotics"/>
+      <arc id="5013819408" source="Release E" target="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})"/>
+      <arc id="5013830160" source="t7FxNN7" target="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})"/>
+      <arc id="5013823776" source="IV Liquid" target="end"/>
+      <arc id="5013830944" source="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})" target="Return ER"/>
+      <arc id="5013824672" source="({'IV Antibiotics'}, {'ER Registration', 'Release B'})" target="ER Registration"/>
+      <arc id="5093388848" source="start" target="ER Registration"/>
+      <arc id="5093390640" source="IV Antibiotics" target="end"/>
+      <arc id="5013829936" source="Return ER" target="end"/>
+      <arc id="5013823664" source="" target="({'', 'Return ER', 'ER Sepsis Triage'}, {'IV Antibiotics'})"/>
+      <arc id="5013817392" source="IV Antibiotics" target="({'IV Antibiotics', 'fPAW1Vtr54B'}, {'ER Registration'})"/>
+      <arc id="5013824560" source="({'IV Antibiotics', 'fPAW1Vtr54B'}, {'ER Registration'})" target="ER Registration"/>
+      <arc id="5013816496" source="Release D" target="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})"/>
+      <arc id="5013828144" source="IV Antibiotics" target="({'IV Antibiotics'}, {'ER Registration', 'Release B'})"/>
+      <arc id="5093383360" source="start" target="Admission NC"/>
+      <arc id="5013819072" source="Release A" target="end"/>
+      <arc id="5013821760" source="ER Sepsis Triage" target="end"/>
+      <arc id="5013817280" source="({'IV Antibiotics'}, {'ER Registration', 'Release B'})" target="Release B"/>
+      <arc id="5013830608" source="LacticAcid" target="end"/>
+      <arc id="5093377872" source="start" target="ER Triage"/>
+      <arc id="5093382352" source="start" target="Leucocytes"/>
+      <arc id="5093379664" source="start" target="fPAW1Vtr54B"/>
+      <arc id="5013827024" source="Leucocytes" target="end"/>
+      <arc id="5013818064" source="Release C" target="end"/>
+      <arc id="5013827920" source="Release C" target="({'Release E', 'Release D', 'Kg', 'Release C', 't7FxNN7'}, {'Return ER'})"/>
+      <arc id="5093390304" source="start" target="IV Liquid"/>
+      <arc id="5013824224" source="Return ER" target="({'', 'Return ER', 'ER Sepsis Triage'}, {'IV Antibiotics'})"/>
+      <arc id="5013816048" source="ER Triage" target="end"/>
+      <arc id="5013829488" source="Admission NC" target="end"/>
+      <arc id="5013825904" source="Release B" target="end"/>
+      <arc id="5013819632" source="ER Sepsis Triage" target="({'', 'Return ER', 'ER Sepsis Triage'}, {'IV Antibiotics'})"/>
+      <arc id="5013827696" source="fPAW1Vtr54B" target="({'IV Antibiotics', 'fPAW1Vtr54B'}, {'ER Registration'})"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

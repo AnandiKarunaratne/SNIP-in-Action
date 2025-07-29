@@ -1,0 +1,533 @@
+{
+"log_size": 13087,
+"initial_num_of_distinct_traces": 4366,
+"initial_num_of_distinct_activities": 24,
+"initial_distinct_activities": [A_CANCELLED, A_DECLINED, A_APPROVED, A_PARTLYSUBMITTED, A_FINALIZED, A_ACTIVATED, O_DECLINED, A_REGISTERED, A_SUBMITTED, W_Nabellen offertes, W_Wijzigen contractgegevens, O_SELECTED, O_SENT_BACK, W_Valideren aanvraag, O_ACCEPTED, O_CANCELLED, W_Afhandelen leads, W_Completeren aanvraag, O_SENT, A_PREACCEPTED, A_ACCEPTED, W_Beoordelen fraude, W_Nabellen incomplete dossiers, O_CREATED],
+"noise_level": 0.005
+},
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_CANCELLED, A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, , A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, O_ACCEPTED, A_APPROVED, A_REGISTERED, A_ACTIVATED, W_Valideren aanvraag]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[uFZf8Q5RU, A_PARTLYSUBMITTED, A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, O_ACCEPTED, A_APPROVED, A_REGISTERED, A_ACTIVATED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_APPROVED, A_ACTIVATED, A_REGISTERED, W_Valideren aanvraag]",
+"length": "12",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, dfT8AaUVudEEUWCz, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, liMtW, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, O_CANCELLED, O_SELECTED, ZdyjDaAA, O_CREATED, O_CREATED, V8LMueNrcjIRfQimd, 9S8u3ZxE5O, O_SENT, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, O_SENT_BACK, 8mgF, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, , X40WNiJ99Bn, O_ACCEPTED, A_APPROVED, A_ACTIVATED, A_REGISTERED, A_PREACCEPTED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED, A_APPROVED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]",
+"length": "4",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag, A_PREACCEPTED, p0z5cEF5LIP2VpWlxL, gnLzv, gnLzv]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_CANCELLED, A_CANCELLED, W_Nabellen offertes]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_APPROVED, EGncoELlF11N6gpfEkH, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_CANCELLED, A_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, JVHyJSofRHe, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED, O_SENT]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, AzOjkqd, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, qT0bSZY4lkHf, A_FINALIZED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, Bbae3OLQDEICQkV, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[mhDAY6vfFw2AnZNv, gjR4Y, A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]",
+"length": "7",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CREATED, wkvXl, qVqPXl1TVpD2Xb5qpnN, W_Nabellen offertes, W_Nabellen offertes, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes]",
+"length": "7",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, ZWjo0lizKznntX83VLa, O_DECLINED, QG, A_PREACCEPTED, W_Nabellen incomplete dossiers, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, KQwZMYTD1vQx4Axgmg, W_Nabellen offertes, lpSyMjHL3, , W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, , A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, JwVErsTRco5x, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, 9psMCio, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, 0eQbyHn8o2G4AkrLH, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]",
+"length": "3",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, O_ACCEPTED, A_PREACCEPTED, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Completeren aanvraag, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Wijzigen contractgegevens, 6PgjdA8ZB3mSfm3, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_DECLINED, A_DECLINED, W_Valideren aanvraag]",
+"length": "10",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Wijzigen contractgegevens, Ze1q6nv5CQwP0WzpRfP, A_ACTIVATED, DFYX0ZJNLPEJR4W, A_APPROVED, W_Afhandelen leads, oyBIrNyXF2LzWntk, i9zi, FYeWkPG, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_DECLINED, A_DECLINED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, A_ACTIVATED, A_APPROVED, A_REGISTERED, O_ACCEPTED, W_Valideren aanvraag]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, aWQEO4M0cYiucDf07Ic, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, A_ACTIVATED, A_APPROVED, A_REGISTERED, O_ACCEPTED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, O_DECLINED, A_DECLINED, W_Valideren aanvraag]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, Md9uhJZQ0cRDT, A_ACTIVATED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, O_DECLINED, A_DECLINED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[hM7O63GM6METayK7fv, A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_PREACCEPTED, A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, O_DECLINED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, A_DECLINED, O_DECLINED, W_Valideren aanvraag]",
+"length": "7",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_DECLINED, A_FINALIZED, A_FINALIZED, O_SELECTED, , O_CREATED, O_SENT, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Valideren aanvraag, KCF3, O_SENT_BACK, W_Nabellen offertes, W_Valideren aanvraag, A_DECLINED, O_DECLINED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, A_REGISTERED, O_SENT, W_Nabellen offertes, 0, O_CREATED, W_Completeren aanvraag, W_Nabellen offertes, ddfI8HF, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, cQmwnHhikNTgx, A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, aSxHw7tDfI40, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, 4LNX5Cro, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, NiPqpGVYJm1DGc3uQ, A_PARTLYSUBMITTED, A_SUBMITTED, 95WNtFt8mjeJ0, A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED, dbkfL6Y]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_CANCELLED, W_Completeren aanvraag]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[O_CANCELLED, A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, h08WvWwD69Q3, A_CANCELLED, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_REGISTERED, A_APPROVED, A_ACTIVATED, W_Valideren aanvraag]",
+"length": "8",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PARTLYSUBMITTED, OE0o544wN8o, A_PARTLYSUBMITTED, A_PREACCEPTED, JtLXCAWlHNIad3L, A_PARTLYSUBMITTED, y0, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_REGISTERED, A_APPROVED, A_ACTIVATED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[mW1q, A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, e2PzX7xt, W_Completeren aanvraag, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, O_DECLINED, A_DECLINED, W_Valideren aanvraag]",
+"length": "6",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, A_FINALIZED, A_APPROVED, W_Nabellen incomplete dossiers, O_CREATED, O_DECLINED, OgKrA4MSvzhx746BiX, O_DECLINED, A_DECLINED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, BtQ, 7xM9, W_Nabellen offertes, WHJ1ERsCHq4JILx, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, A_APPROVED, O_ACCEPTED, A_REGISTERED, A_ACTIVATED, W_Valideren aanvraag]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, A_APPROVED, O_ACCEPTED, A_REGISTERED, A_ACTIVATED, uspalF7sd, Vh14F074Cycj2wqmyu, Ne7SXwDKW3f8slLXW, , A_APPROVED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_REGISTERED, A_APPROVED, A_ACTIVATED, W_Valideren aanvraag]",
+"length": "8",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, 9zfnXqED4CC0, A_PARTLYSUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, O_DECLINED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_SELECTED, O_CREATED, zf0kB, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, IHsrXg7, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, RyrddQAzJAzkwL9, W_Valideren aanvraag, O_ACCEPTED, A_REGISTERED, A_APPROVED, A_ACTIVATED, W_Valideren aanvraag, jyquwY08CZq0ej]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]",
+"length": "4",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, W_Beoordelen fraude, ZpIUq9THuE, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_SELECTED, O_CANCELLED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, 7sImd852sodeeaI, O_SENT, W_Nabellen offertes, A_ACTIVATED, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, 61gAGflfPO7e, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, hYwfVPDTEYHwbOmlj, W_Afhandelen leads, , A_DECLINED, W_Afhandelen leads]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, UbmRSIbh, LTs5Vk5XB5t7s, q4YsMBzQw7iXjCej, e1iXdAvrZ05TvJV, W_Nabellen offertes, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_DECLINED, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, A_CANCELLED, O_CANCELLED, W_Nabellen incomplete dossiers]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, A_CANCELLED, O_CANCELLED, eq, xdPp5X, Ede7lPa11DvOG, A_DECLINED, VFzciFeQ, W_Nabellen incomplete dossiers]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, A_PREACCEPTED, A_CANCELLED, O_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, A_CANCELLED, W_Nabellen offertes]",
+"length": "10",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CREATED, W_Nabellen offertes, HDP0jGw3vXHLfAU, W_Nabellen offertes, , O_SELECTED, W_Afhandelen leads, rTHF6Iza3L5CXwkDi, A_CANCELLED, , W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, A_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_DECLINED, W_Afhandelen leads, VW, nLoUVhCLC]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, O_ACCEPTED, A_ACTIVATED, A_REGISTERED, A_APPROVED, W_Valideren aanvraag]",
+"length": "11",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, W_Valideren aanvraag, W_Nabellen incomplete dossiers, mI, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, , UeGvPkxJy8, JW2DCA, W_Valideren aanvraag, AnQZBMCgJ, W_Beoordelen fraude, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_ACTIVATED, A_REGISTERED, A_APPROVED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_CANCELLED]",
+"length": "4",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, XdOF0AiY, W_Completeren aanvraag, GI3Af, wtyVGcU5n4yWfEJsUP, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_CANCELLED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, A_CANCELLED, W_Nabellen offertes]",
+"length": "6",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, A_REGISTERED, A_ACCEPTED, O_CANCELLED, 5LLm, UmpWPEBGvwfoV, 9u, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, A_CANCELLED, W_Nabellen offertes]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED, MlYZ0dOZ3J0klkK]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_ACTIVATED, A_APPROVED, A_REGISTERED, W_Valideren aanvraag]",
+"length": "8",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, 6Y8ed60Y, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, AbiFvvPQGlPOIS, A_FINALIZED, O_SELECTED, O_CREATED, O_CANCELLED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, up2, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, S, W_Nabellen offertes, W_Valideren aanvraag, W_Valideren aanvraag, W_Valideren aanvraag, O_ACCEPTED, A_ACTIVATED, W_Afhandelen leads, A_APPROVED, A_REGISTERED, W_Valideren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_DECLINED, IT0QP567wdPcEaBGd7]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, A_CANCELLED]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, A_FINALIZED, hkq, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_CANCELLED, A_CANCELLED]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_CANCELLED, W_Completeren aanvraag]",
+"length": "4",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, W_Afhandelen leads, W_Afhandelen leads, A_PREACCEPTED, W_Completeren aanvraag, W_Afhandelen leads, xZCds4CJMK, W_Beoordelen fraude, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, SosRJjZf, W_Completeren aanvraag, W_Completeren aanvraag, A_CANCELLED, 1SXnQfj, W_Completeren aanvraag]"
+},
+
+{
+"original_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, A_DECLINED, O_DECLINED, W_Valideren aanvraag]",
+"length": "4",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[A_SUBMITTED, A_PARTLYSUBMITTED, A_PREACCEPTED, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, W_Completeren aanvraag, A_ACCEPTED, O_SELECTED, A_FINALIZED, O_CREATED, O_SENT, W_Nabellen offertes, W_Completeren aanvraag, W_Valideren aanvraag, W_Completeren aanvraag, wnHlyseo7CzmmDv3J5, W_Completeren aanvraag, W_Nabellen offertes, O_CANCELLED, O_SELECTED, O_CREATED, O_SENT, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, W_Nabellen offertes, O_SENT_BACK, W_Valideren aanvraag, W_Nabellen offertes, W_Valideren aanvraag, A_DECLINED, O_DECLINED, W_Valideren aanvraag]"
+},
+
+{
+"log_size": 13087,
+"final_num_of_distinct_traces": 4407,
+"final_num_of_distinct_activities": 124,
+"final_distinct_activities": [, JVHyJSofRHe, AzOjkqd, wkvXl, dbkfL6Y, 95WNtFt8mjeJ0, O_CANCELLED, QG, xZCds4CJMK, X40WNiJ99Bn, W_Nabellen incomplete dossiers, BtQ, O_CREATED, KCF3, wnHlyseo7CzmmDv3J5, A_REGISTERED, i9zi, uFZf8Q5RU, 0, O_SELECTED, W_Valideren aanvraag, rTHF6Iza3L5CXwkDi, Ede7lPa11DvOG, 9S8u3ZxE5O, MlYZ0dOZ3J0klkK, HDP0jGw3vXHLfAU, Ne7SXwDKW3f8slLXW, KQwZMYTD1vQx4Axgmg, EGncoELlF11N6gpfEkH, 1SXnQfj, JtLXCAWlHNIad3L, Md9uhJZQ0cRDT, ZdyjDaAA, 61gAGflfPO7e, XdOF0AiY, S, DFYX0ZJNLPEJR4W, O_ACCEPTED, FYeWkPG, mW1q, A_ACCEPTED, 9u, zf0kB, SosRJjZf, ddfI8HF, A_CANCELLED, mhDAY6vfFw2AnZNv, 7sImd852sodeeaI, gjR4Y, dfT8AaUVudEEUWCz, wtyVGcU5n4yWfEJsUP, A_SUBMITTED, 7xM9, LTs5Vk5XB5t7s, A_PREACCEPTED, aWQEO4M0cYiucDf07Ic, mI, 6PgjdA8ZB3mSfm3, 5LLm, IT0QP567wdPcEaBGd7, IHsrXg7, nLoUVhCLC, O_DECLINED, W_Nabellen offertes, W_Wijzigen contractgegevens, Vh14F074Cycj2wqmyu, aSxHw7tDfI40, V8LMueNrcjIRfQimd, GI3Af, 6Y8ed60Y, UbmRSIbh, gnLzv, A_APPROVED, xdPp5X, UmpWPEBGvwfoV, q4YsMBzQw7iXjCej, JwVErsTRco5x, A_PARTLYSUBMITTED, A_ACTIVATED, h08WvWwD69Q3, eq, 8mgF, 9zfnXqED4CC0, cQmwnHhikNTgx, O_SENT_BACK, p0z5cEF5LIP2VpWlxL, W_Completeren aanvraag, O_SENT, qT0bSZY4lkHf, W_Beoordelen fraude, OE0o544wN8o, uspalF7sd, e2PzX7xt, RyrddQAzJAzkwL9, VW, 0eQbyHn8o2G4AkrLH, A_FINALIZED, ZpIUq9THuE, jyquwY08CZq0ej, VFzciFeQ, hkq, ZWjo0lizKznntX83VLa, JW2DCA, AbiFvvPQGlPOIS, y0, hYwfVPDTEYHwbOmlj, WHJ1ERsCHq4JILx, NiPqpGVYJm1DGc3uQ, UeGvPkxJy8, hM7O63GM6METayK7fv, A_DECLINED, 9psMCio, qVqPXl1TVpD2Xb5qpnN, 4LNX5Cro, AnQZBMCgJ, liMtW, e1iXdAvrZ05TvJV, Bbae3OLQDEICQkV, oyBIrNyXF2LzWntk, W_Afhandelen leads, up2, lpSyMjHL3, OgKrA4MSvzhx746BiX, Ze1q6nv5CQwP0WzpRfP]
+}

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1748148625.06463" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1748148625.06463</text>
+    </name>
+    <page id="n0">
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'Notify Result Appeal to Offender'}, {'Send for Credit Collection'})">
+        <name>
+          <text>({'Notify Result Appeal to Offender'}, {'Send for Credit Collection'})</text>
+        </name>
+      </place>
+      <place id="({'Insert Fine Notification'}, {'Appeal to Judge'})">
+        <name>
+          <text>({'Insert Fine Notification'}, {'Appeal to Judge'})</text>
+        </name>
+      </place>
+      <place id="({'Receive Result Appeal from Prefecture'}, {'Send for Credit Collection'})">
+        <name>
+          <text>({'Receive Result Appeal from Prefecture'}, {'Send for Credit Collection'})</text>
+        </name>
+      </place>
+      <place id="({'Insert Fine Notification'}, {'Receive Result Appeal from Prefecture'})">
+        <name>
+          <text>({'Insert Fine Notification'}, {'Receive Result Appeal from Prefecture'})</text>
+        </name>
+      </place>
+      <place id="({'Send for Credit Collection'}, {'Insert Date Appeal to Prefecture'})">
+        <name>
+          <text>({'Send for Credit Collection'}, {'Insert Date Appeal to Prefecture'})</text>
+        </name>
+      </place>
+      <place id="({'Send Fine'}, {'Receive Result Appeal from Prefecture'})">
+        <name>
+          <text>({'Send Fine'}, {'Receive Result Appeal from Prefecture'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'Appeal to Judge'}, {'Send for Credit Collection'})">
+        <name>
+          <text>({'Appeal to Judge'}, {'Send for Credit Collection'})</text>
+        </name>
+      </place>
+      <place id="({'Insert Date Appeal to Prefecture'}, {'Notify Result Appeal to Offender'})">
+        <name>
+          <text>({'Insert Date Appeal to Prefecture'}, {'Notify Result Appeal to Offender'})</text>
+        </name>
+      </place>
+      <transition id="Send Appeal to Prefecture">
+        <name>
+          <text>Send Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Insert Fine Notification">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+      </transition>
+      <transition id="Send Fine">
+        <name>
+          <text>Send Fine</text>
+        </name>
+      </transition>
+      <transition id="Send for Credit Collection">
+        <name>
+          <text>Send for Credit Collection</text>
+        </name>
+      </transition>
+      <transition id="Create Fine">
+        <name>
+          <text>Create Fine</text>
+        </name>
+      </transition>
+      <transition id="Insert Date Appeal to Prefecture">
+        <name>
+          <text>Insert Date Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Notify Result Appeal to Offender">
+        <name>
+          <text>Notify Result Appeal to Offender</text>
+        </name>
+      </transition>
+      <transition id="Add penalty">
+        <name>
+          <text>Add penalty</text>
+        </name>
+      </transition>
+      <transition id="Appeal to Judge">
+        <name>
+          <text>Appeal to Judge</text>
+        </name>
+      </transition>
+      <transition id="Receive Result Appeal from Prefecture">
+        <name>
+          <text>Receive Result Appeal from Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Payment">
+        <name>
+          <text>Payment</text>
+        </name>
+      </transition>
+      <arc id="4704770816" source="start" target="Send for Credit Collection"/>
+      <arc id="4704775296" source="start" target="Insert Date Appeal to Prefecture"/>
+      <arc id="4704772608" source="start" target="Payment"/>
+      <arc id="4704773504" source="Add penalty" target="end"/>
+      <arc id="4704777984" source="Receive Result Appeal from Prefecture" target="end"/>
+      <arc id="4704774400" source="Insert Fine Notification" target="({'Insert Fine Notification'}, {'Appeal to Judge'})"/>
+      <arc id="4704769024" source="Appeal to Judge" target="({'Appeal to Judge'}, {'Send for Credit Collection'})"/>
+      <arc id="4704769808" source="start" target="Insert Fine Notification"/>
+      <arc id="4704773392" source="Send Appeal to Prefecture" target="end"/>
+      <arc id="4704776976" source="Insert Date Appeal to Prefecture" target="end"/>
+      <arc id="4704776080" source="({'Notify Result Appeal to Offender'}, {'Send for Credit Collection'})" target="Send for Credit Collection"/>
+      <arc id="4704770704" source="({'Receive Result Appeal from Prefecture'}, {'Send for Credit Collection'})" target="Send for Credit Collection"/>
+      <arc id="4704768912" source="Insert Date Appeal to Prefecture" target="({'Insert Date Appeal to Prefecture'}, {'Notify Result Appeal to Offender'})"/>
+      <arc id="4704772384" source="Send for Credit Collection" target="end"/>
+      <arc id="4704770592" source="Insert Fine Notification" target="end"/>
+      <arc id="4704775968" source="Send Fine" target="end"/>
+      <arc id="4704774960" source="Payment" target="end"/>
+      <arc id="4704767792" source="Notify Result Appeal to Offender" target="({'Notify Result Appeal to Offender'}, {'Send for Credit Collection'})"/>
+      <arc id="4704776752" source="Send for Credit Collection" target="({'Send for Credit Collection'}, {'Insert Date Appeal to Prefecture'})"/>
+      <arc id="4704773952" source="start" target="Send Appeal to Prefecture"/>
+      <arc id="4704775744" source="Notify Result Appeal to Offender" target="end"/>
+      <arc id="4704778432" source="({'Insert Fine Notification'}, {'Receive Result Appeal from Prefecture'})" target="Receive Result Appeal from Prefecture"/>
+      <arc id="4704777536" source="({'Send for Credit Collection'}, {'Insert Date Appeal to Prefecture'})" target="Insert Date Appeal to Prefecture"/>
+      <arc id="4704772944" source="start" target="Create Fine"/>
+      <arc id="4704765776" source="start" target="Add penalty"/>
+      <arc id="4704776528" source="start" target="Send Fine"/>
+      <arc id="4704773840" source="Appeal to Judge" target="end"/>
+      <arc id="4704771152" source="Receive Result Appeal from Prefecture" target="({'Receive Result Appeal from Prefecture'}, {'Send for Credit Collection'})"/>
+      <arc id="4704775632" source="({'Appeal to Judge'}, {'Send for Credit Collection'})" target="Send for Credit Collection"/>
+      <arc id="4704770256" source="Insert Fine Notification" target="({'Insert Fine Notification'}, {'Receive Result Appeal from Prefecture'})"/>
+      <arc id="4704779216" source="({'Send Fine'}, {'Receive Result Appeal from Prefecture'})" target="Receive Result Appeal from Prefecture"/>
+      <arc id="4704771040" source="start" target="Appeal to Judge"/>
+      <arc id="4704777312" source="Create Fine" target="end"/>
+      <arc id="4704769248" source="Send Fine" target="({'Send Fine'}, {'Receive Result Appeal from Prefecture'})"/>
+      <arc id="4704777200" source="({'Insert Fine Notification'}, {'Appeal to Judge'})" target="Appeal to Judge"/>
+      <arc id="4704769136" source="({'Insert Date Appeal to Prefecture'}, {'Notify Result Appeal to Offender'})" target="Notify Result Appeal to Offender"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

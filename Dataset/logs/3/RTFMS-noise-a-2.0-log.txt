@@ -1,0 +1,6380 @@
+{
+"log_size": 150370,
+"initial_num_of_distinct_traces": 321,
+"initial_num_of_distinct_activities": 11,
+"initial_distinct_activities": [Payment, Insert Date Appeal to Prefecture, Receive Result Appeal from Prefecture, Send Appeal to Prefecture, Notify Result Appeal to Offender, Appeal to Judge, Add penalty, Insert Fine Notification, Send for Credit Collection, Create Fine, Send Fine],
+"noise_level": 0.005
+},
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Send Appeal to Prefecture, Add penalty, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Appeal to Judge]",
+"length": "3",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Send Appeal to Prefecture, Add penalty, Notify Result Appeal to Offender, Appeal to Judge]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Add penalty, Payment, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Date Appeal to Prefecture, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Date Appeal to Prefecture, Send Appeal to Prefecture]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Date Appeal to Prefecture, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Insert Fine Notification, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Send for Credit Collection]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Insert Fine Notification, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Appeal to Judge]",
+"length": "3",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Appeal to Judge]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment, Payment, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment, Payment, Payment, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Date Appeal to Prefecture, Insert Fine Notification, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Appeal to Judge, Add penalty, Payment, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Appeal to Judge, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Appeal to Judge]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Appeal to Judge]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Appeal to Judge, Notify Result Appeal to Offender]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Date Appeal to Prefecture, Add penalty, Receive Result Appeal from Prefecture, Appeal to Judge, Notify Result Appeal to Offender]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Send Appeal to Prefecture, Add penalty, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Send for Credit Collection]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Send Appeal to Prefecture, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Send Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Insert Fine Notification, Add penalty, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Send Fine, Insert Fine Notification, Payment, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Send for Credit Collection]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Send for Credit Collection]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "tail",
+"noisy_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender, Payment]",
+"length": "2",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Insert Date Appeal to Prefecture, Add penalty, Send Appeal to Prefecture, Receive Result Appeal from Prefecture, Notify Result Appeal to Offender]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "body",
+"noisy_trace": "[Create Fine, Insert Fine Notification, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Send Fine, Insert Fine Notification, Add penalty, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": random",
+"noisy_trace": "[Create Fine, Send Fine, Add penalty, Payment]"
+},
+
+{
+"original_trace": "[Create Fine, Payment]",
+"length": "1",
+"noise_type": "ABSENCE",
+"position": "consecutive",
+"location": "head",
+"noisy_trace": "[Payment]"
+},
+
+{
+"log_size": 150370,
+"final_num_of_distinct_traces": 336,
+"final_num_of_distinct_activities": 11,
+"final_distinct_activities": [Payment, Insert Date Appeal to Prefecture, Receive Result Appeal from Prefecture, Send Appeal to Prefecture, Notify Result Appeal to Offender, Appeal to Judge, Add penalty, Insert Fine Notification, Send for Credit Collection, Create Fine, Send Fine]
+}

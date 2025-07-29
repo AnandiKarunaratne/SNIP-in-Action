@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_classic_net_1748217888.112391" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_classic_net_1748217888.112391</text>
+    </name>
+    <page id="n0">
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'A_SUBMITTED'}, {'A_PARTLYSUBMITTED'})">
+        <name>
+          <text>({'A_SUBMITTED'}, {'A_PARTLYSUBMITTED'})</text>
+        </name>
+      </place>
+      <place id="({'O_CREATED'}, {'O_SENT'})">
+        <name>
+          <text>({'O_CREATED'}, {'O_SENT'})</text>
+        </name>
+      </place>
+      <place id="({'O_SELECTED'}, {'O_SENT'})">
+        <name>
+          <text>({'O_SELECTED'}, {'O_SENT'})</text>
+        </name>
+      </place>
+      <place id="({'A_PARTLYSUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})">
+        <name>
+          <text>({'A_PARTLYSUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})</text>
+        </name>
+      </place>
+      <place id="({'A_ACCEPTED'}, {'A_DECLINED', 'O_SELECTED', 'A_CANCELLED'})">
+        <name>
+          <text>({'A_ACCEPTED'}, {'A_DECLINED', 'O_SELECTED', 'A_CANCELLED'})</text>
+        </name>
+      </place>
+      <place id="({'A_ACCEPTED'}, {'A_FINALIZED', 'A_DECLINED', 'A_CANCELLED'})">
+        <name>
+          <text>({'A_ACCEPTED'}, {'A_FINALIZED', 'A_DECLINED', 'A_CANCELLED'})</text>
+        </name>
+      </place>
+      <place id="({'A_SUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})">
+        <name>
+          <text>({'A_SUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})</text>
+        </name>
+      </place>
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'O_SELECTED'}, {'O_CREATED'})">
+        <name>
+          <text>({'O_SELECTED'}, {'O_CREATED'})</text>
+        </name>
+      </place>
+      <place id="({'A_PARTLYSUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})">
+        <name>
+          <text>({'A_PARTLYSUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})</text>
+        </name>
+      </place>
+      <place id="({'A_FINALIZED', 'O_CANCELLED'}, {'O_CREATED'})">
+        <name>
+          <text>({'A_FINALIZED', 'O_CANCELLED'}, {'O_CREATED'})</text>
+        </name>
+      </place>
+      <place id="({'A_SUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})">
+        <name>
+          <text>({'A_SUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})</text>
+        </name>
+      </place>
+      <place id="({'A_FINALIZED', 'O_CANCELLED'}, {'O_SENT'})">
+        <name>
+          <text>({'A_FINALIZED', 'O_CANCELLED'}, {'O_SENT'})</text>
+        </name>
+      </place>
+      <transition id="A_DECLINED">
+        <name>
+          <text>A_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen incomplete dossiers">
+        <name>
+          <text>W_Nabellen incomplete dossiers</text>
+        </name>
+      </transition>
+      <transition id="W_Wijzigen contractgegevens">
+        <name>
+          <text>W_Wijzigen contractgegevens</text>
+        </name>
+      </transition>
+      <transition id="A_ACTIVATED">
+        <name>
+          <text>A_ACTIVATED</text>
+        </name>
+      </transition>
+      <transition id="A_PREACCEPTED">
+        <name>
+          <text>A_PREACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="O_SENT">
+        <name>
+          <text>O_SENT</text>
+        </name>
+      </transition>
+      <transition id="A_REGISTERED">
+        <name>
+          <text>A_REGISTERED</text>
+        </name>
+      </transition>
+      <transition id="W_Valideren aanvraag">
+        <name>
+          <text>W_Valideren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="O_SELECTED">
+        <name>
+          <text>O_SELECTED</text>
+        </name>
+      </transition>
+      <transition id="O_CANCELLED">
+        <name>
+          <text>O_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="A_FINALIZED">
+        <name>
+          <text>A_FINALIZED</text>
+        </name>
+      </transition>
+      <transition id="W_Nabellen offertes">
+        <name>
+          <text>W_Nabellen offertes</text>
+        </name>
+      </transition>
+      <transition id="A_CANCELLED">
+        <name>
+          <text>A_CANCELLED</text>
+        </name>
+      </transition>
+      <transition id="O_SENT_BACK">
+        <name>
+          <text>O_SENT_BACK</text>
+        </name>
+      </transition>
+      <transition id="A_ACCEPTED">
+        <name>
+          <text>A_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="O_ACCEPTED">
+        <name>
+          <text>O_ACCEPTED</text>
+        </name>
+      </transition>
+      <transition id="W_Beoordelen fraude">
+        <name>
+          <text>W_Beoordelen fraude</text>
+        </name>
+      </transition>
+      <transition id="W_Afhandelen leads">
+        <name>
+          <text>W_Afhandelen leads</text>
+        </name>
+      </transition>
+      <transition id="A_APPROVED">
+        <name>
+          <text>A_APPROVED</text>
+        </name>
+      </transition>
+      <transition id="O_CREATED">
+        <name>
+          <text>O_CREATED</text>
+        </name>
+      </transition>
+      <transition id="A_PARTLYSUBMITTED">
+        <name>
+          <text>A_PARTLYSUBMITTED</text>
+        </name>
+      </transition>
+      <transition id="W_Completeren aanvraag">
+        <name>
+          <text>W_Completeren aanvraag</text>
+        </name>
+      </transition>
+      <transition id="O_DECLINED">
+        <name>
+          <text>O_DECLINED</text>
+        </name>
+      </transition>
+      <transition id="A_SUBMITTED">
+        <name>
+          <text>A_SUBMITTED</text>
+        </name>
+      </transition>
+      <arc id="6168952320" source="start" target="W_Beoordelen fraude"/>
+      <arc id="6168947840" source="start" target="O_SENT"/>
+      <arc id="6168939776" source="start" target="O_CREATED"/>
+      <arc id="6168946944" source="A_PARTLYSUBMITTED" target="({'A_PARTLYSUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})"/>
+      <arc id="6168941568" source="({'A_ACCEPTED'}, {'A_FINALIZED', 'A_DECLINED', 'A_CANCELLED'})" target="A_CANCELLED"/>
+      <arc id="6168938880" source="A_FINALIZED" target="({'A_FINALIZED', 'O_CANCELLED'}, {'O_SENT'})"/>
+      <arc id="6168951312" source="start" target="A_ACCEPTED"/>
+      <arc id="6168940560" source="O_SENT_BACK" target="end"/>
+      <arc id="6168948624" source="A_PARTLYSUBMITTED" target="end"/>
+      <arc id="6168939664" source="A_SUBMITTED" target="({'A_SUBMITTED'}, {'A_PARTLYSUBMITTED'})"/>
+      <arc id="6168947728" source="O_CREATED" target="({'O_CREATED'}, {'O_SENT'})"/>
+      <arc id="6168949520" source="O_SELECTED" target="({'O_SELECTED'}, {'O_CREATED'})"/>
+      <arc id="6168945936" source="({'A_PARTLYSUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})" target="A_DECLINED"/>
+      <arc id="6168944144" source="A_ACCEPTED" target="({'A_PARTLYSUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})"/>
+      <arc id="6168945040" source="({'A_PARTLYSUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})" target="A_DECLINED"/>
+      <arc id="6168939328" source="({'A_SUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})" target="A_PREACCEPTED"/>
+      <arc id="6168945824" source="start" target="W_Afhandelen leads"/>
+      <arc id="6168944928" source="A_ACTIVATED" target="end"/>
+      <arc id="6168949408" source="A_REGISTERED" target="end"/>
+      <arc id="6168946720" source="({'A_SUBMITTED'}, {'A_PARTLYSUBMITTED'})" target="A_PARTLYSUBMITTED"/>
+      <arc id="6168948512" source="({'O_CREATED'}, {'O_SENT'})" target="O_SENT"/>
+      <arc id="6168942240" source="O_CANCELLED" target="({'A_FINALIZED', 'O_CANCELLED'}, {'O_CREATED'})"/>
+      <arc id="6168936864" source="A_SUBMITTED" target="({'A_SUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})"/>
+      <arc id="6168939552" source="A_SUBMITTED" target="({'A_SUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})"/>
+      <arc id="6168951984" source="W_Afhandelen leads" target="end"/>
+      <arc id="6168948400" source="A_CANCELLED" target="end"/>
+      <arc id="6168947504" source="({'O_SELECTED'}, {'O_SENT'})" target="O_SENT"/>
+      <arc id="6168938544" source="({'A_ACCEPTED'}, {'A_DECLINED', 'O_SELECTED', 'A_CANCELLED'})" target="A_DECLINED"/>
+      <arc id="6168940336" source="({'A_ACCEPTED'}, {'A_FINALIZED', 'A_DECLINED', 'A_CANCELLED'})" target="A_DECLINED"/>
+      <arc id="6168939440" source="O_CANCELLED" target="({'A_FINALIZED', 'O_CANCELLED'}, {'O_SENT'})"/>
+      <arc id="6168950080" source="W_Wijzigen contractgegevens" target="end"/>
+      <arc id="6168947392" source="O_ACCEPTED" target="end"/>
+      <arc id="6168950976" source="W_Nabellen offertes" target="end"/>
+      <arc id="6168946496" source="({'O_SELECTED'}, {'O_CREATED'})" target="O_CREATED"/>
+      <arc id="6168945600" source="({'A_PARTLYSUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})" target="A_PREACCEPTED"/>
+      <arc id="6168942912" source="({'A_FINALIZED', 'O_CANCELLED'}, {'O_CREATED'})" target="O_CREATED"/>
+      <arc id="6168944704" source="A_PARTLYSUBMITTED" target="({'A_PARTLYSUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})"/>
+      <arc id="6168948288" source="A_ACCEPTED" target="({'A_ACCEPTED'}, {'A_DECLINED', 'O_SELECTED', 'A_CANCELLED'})"/>
+      <arc id="6168942016" source="({'A_ACCEPTED'}, {'A_DECLINED', 'O_SELECTED', 'A_CANCELLED'})" target="A_CANCELLED"/>
+      <arc id="6168943808" source="({'A_ACCEPTED'}, {'A_FINALIZED', 'A_DECLINED', 'A_CANCELLED'})" target="A_FINALIZED"/>
+      <arc id="6168948176" source="W_Completeren aanvraag" target="end"/>
+      <arc id="6168952656" source="W_Valideren aanvraag" target="end"/>
+      <arc id="6168949968" source="A_DECLINED" target="end"/>
+      <arc id="6168939216" source="W_Nabellen incomplete dossiers" target="end"/>
+      <arc id="6168942800" source="A_FINALIZED" target="({'A_FINALIZED', 'O_CANCELLED'}, {'O_CREATED'})"/>
+      <arc id="6168944592" source="A_ACCEPTED" target="({'A_SUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})"/>
+      <arc id="6168940112" source="({'A_SUBMITTED', 'A_ACCEPTED'}, {'A_DECLINED'})" target="A_DECLINED"/>
+      <arc id="6168951648" source="start" target="A_SUBMITTED"/>
+      <arc id="6168947168" source="start" target="A_PARTLYSUBMITTED"/>
+      <arc id="6168950752" source="W_Beoordelen fraude" target="end"/>
+      <arc id="6168937312" source="A_ACCEPTED" target="({'A_ACCEPTED'}, {'A_FINALIZED', 'A_DECLINED', 'A_CANCELLED'})"/>
+      <arc id="6168939104" source="({'A_SUBMITTED'}, {'A_PREACCEPTED', 'A_DECLINED'})" target="A_DECLINED"/>
+      <arc id="6168948848" source="start" target="W_Completeren aanvraag"/>
+      <arc id="6168949744" source="start" target="A_PREACCEPTED"/>
+      <arc id="6168952432" source="start" target="O_SELECTED"/>
+      <arc id="6168938992" source="O_CANCELLED" target="end"/>
+      <arc id="6168946160" source="O_SELECTED" target="({'O_SELECTED'}, {'O_SENT'})"/>
+      <arc id="6168942576" source="({'A_ACCEPTED'}, {'A_DECLINED', 'O_SELECTED', 'A_CANCELLED'})" target="O_SELECTED"/>
+      <arc id="6168941680" source="({'A_FINALIZED', 'O_CANCELLED'}, {'O_SENT'})" target="O_SENT"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

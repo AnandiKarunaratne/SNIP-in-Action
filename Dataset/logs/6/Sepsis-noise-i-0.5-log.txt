@@ -1,0 +1,53 @@
+{
+"log_size": 1050,
+"initial_num_of_distinct_traces": 846,
+"initial_num_of_distinct_activities": 16,
+"initial_distinct_activities": [CRP, Release B, Release A, Release D, Release C, Release E, Admission IC, Return ER, ER Triage, IV Antibiotics, Leucocytes, ER Registration, IV Liquid, Admission NC, LacticAcid, ER Sepsis Triage],
+"noise_level": 0.005
+},
+{
+"original_trace": "[ER Registration, ER Triage, ER Sepsis Triage, IV Liquid, IV Antibiotics, Leucocytes, LacticAcid, CRP, Admission NC, CRP, Release A]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[ER Triage, ER Registration, ER Triage, ER Sepsis Triage, IV Liquid, IV Antibiotics, Leucocytes, LacticAcid, CRP, Admission NC, CRP, Release A]"
+},
+
+{
+"original_trace": "[ER Registration, ER Triage, ER Sepsis Triage, LacticAcid, CRP, Leucocytes, IV Liquid, IV Antibiotics, Admission NC, CRP, Leucocytes, Leucocytes, CRP, Release A, Return ER]",
+"length": "5",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[ER Registration, ER Triage, ER Sepsis Triage, ER Sepsis Triage, ZyleCzI1nNNvyo, LacticAcid, CRP, jQTpaJfi, Leucocytes, IV Liquid, tUj, O, IV Antibiotics, Admission NC, CRP, Leucocytes, Leucocytes, CRP, Release A, Return ER]"
+},
+
+{
+"original_trace": "[ER Registration, ER Triage, ER Sepsis Triage, IV Liquid, Leucocytes, LacticAcid, CRP, IV Antibiotics, Admission NC, CRP, Leucocytes, CRP, Leucocytes, Release D]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "random",
+"noisy_trace": "[ER Registration, IV Antibiotics, c7pPjA, ER Triage, ER Sepsis Triage, IV Liquid, Leucocytes, LacticAcid, CRP, IV Antibiotics, Admission NC, CRP, Leucocytes, CRP, Leucocytes, Release D]"
+},
+
+{
+"original_trace": "[ER Registration, ER Triage, ER Sepsis Triage, CRP, Leucocytes, IV Liquid, IV Antibiotics, LacticAcid]",
+"length": "2",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[ER Registration, ER Triage, ER Sepsis Triage, CRP, Leucocytes, IV Liquid, IV Antibiotics, LacticAcid, PbsELuZY, bImLmYqKPbRi6]"
+},
+
+{
+"original_trace": "[ER Registration, ER Triage, CRP, LacticAcid, Leucocytes, ER Sepsis Triage, IV Liquid, IV Antibiotics, Admission NC, CRP, Leucocytes, CRP, Leucocytes, Leucocytes, Leucocytes, CRP, Release A, Return ER]",
+"length": "1",
+"noise_type": "INSERTION",
+"position": "consecutive",
+"noisy_trace": "[ER Registration, ER Triage, CRP, LacticAcid, Leucocytes, ER Sepsis Triage, IV Liquid, IV Antibiotics, AR9yu, Admission NC, CRP, Leucocytes, CRP, Leucocytes, Leucocytes, Leucocytes, CRP, Release A, Return ER]"
+},
+
+{
+"log_size": 1050,
+"final_num_of_distinct_traces": 846,
+"final_num_of_distinct_activities": 24,
+"final_distinct_activities": [CRP, Release B, ZyleCzI1nNNvyo, Release A, c7pPjA, Release D, PbsELuZY, Release C, Release E, Admission IC, Return ER, tUj, jQTpaJfi, ER Triage, IV Antibiotics, O, Leucocytes, ER Registration, IV Liquid, Admission NC, bImLmYqKPbRi6, LacticAcid, ER Sepsis Triage, AR9yu]
+}

@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="splace_in_Payment_Create Fine_2">
+        <name>
+          <text>splace_in_Payment_Create Fine_2</text>
+        </name>
+      </place>
+      <place id="splace_in_Payment_Send Fine_2">
+        <name>
+          <text>splace_in_Payment_Send Fine_2</text>
+        </name>
+      </place>
+      <place id="splace_in_Payment_Add penalty_0">
+        <name>
+          <text>splace_in_Payment_Add penalty_0</text>
+        </name>
+      </place>
+      <place id="pre_Insert Fine Notification">
+        <name>
+          <text>pre_Insert Fine Notification</text>
+        </name>
+      </place>
+      <place id="pre_Send Appeal to Prefecture">
+        <name>
+          <text>pre_Send Appeal to Prefecture</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="splace_in_Send Appeal to Prefecture_Insert Date Appeal to Prefecture_0">
+        <name>
+          <text>splace_in_Send Appeal to Prefecture_Insert Date Appeal to Prefecture_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Receive Result Appeal from Prefecture_Add penalty_0">
+        <name>
+          <text>splace_in_Receive Result Appeal from Prefecture_Add penalty_0</text>
+        </name>
+      </place>
+      <place id="intplace_Payment">
+        <name>
+          <text>intplace_Payment</text>
+        </name>
+      </place>
+      <place id="pre_Insert Date Appeal to Prefecture">
+        <name>
+          <text>pre_Insert Date Appeal to Prefecture</text>
+        </name>
+      </place>
+      <place id="intplace_Insert Date Appeal to Prefecture">
+        <name>
+          <text>intplace_Insert Date Appeal to Prefecture</text>
+        </name>
+      </place>
+      <place id="pre_Send Fine">
+        <name>
+          <text>pre_Send Fine</text>
+        </name>
+      </place>
+      <place id="intplace_Create Fine">
+        <name>
+          <text>intplace_Create Fine</text>
+        </name>
+      </place>
+      <place id="intplace_Insert Fine Notification">
+        <name>
+          <text>intplace_Insert Fine Notification</text>
+        </name>
+      </place>
+      <place id="intplace_Add penalty">
+        <name>
+          <text>intplace_Add penalty</text>
+        </name>
+      </place>
+      <place id="intplace_Appeal to Judge">
+        <name>
+          <text>intplace_Appeal to Judge</text>
+        </name>
+      </place>
+      <place id="intplace_Receive Result Appeal from Prefecture">
+        <name>
+          <text>intplace_Receive Result Appeal from Prefecture</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="splace_in_Payment_Payment_0">
+        <name>
+          <text>splace_in_Payment_Payment_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Payment_Insert Fine Notification_0">
+        <name>
+          <text>splace_in_Payment_Insert Fine Notification_0</text>
+        </name>
+      </place>
+      <place id="pre_Appeal to Judge">
+        <name>
+          <text>pre_Appeal to Judge</text>
+        </name>
+      </place>
+      <place id="intplace_Notify Result Appeal to Offender">
+        <name>
+          <text>intplace_Notify Result Appeal to Offender</text>
+        </name>
+      </place>
+      <place id="pre_Payment">
+        <name>
+          <text>pre_Payment</text>
+        </name>
+      </place>
+      <place id="splace_in_Add penalty_0">
+        <name>
+          <text>splace_in_Add penalty_0</text>
+        </name>
+      </place>
+      <place id="pre_Send for Credit Collection">
+        <name>
+          <text>pre_Send for Credit Collection</text>
+        </name>
+      </place>
+      <place id="pre_Notify Result Appeal to Offender">
+        <name>
+          <text>pre_Notify Result Appeal to Offender</text>
+        </name>
+      </place>
+      <place id="pre_Add penalty">
+        <name>
+          <text>pre_Add penalty</text>
+        </name>
+      </place>
+      <place id="intplace_Send Fine">
+        <name>
+          <text>intplace_Send Fine</text>
+        </name>
+      </place>
+      <place id="intplace_Send Appeal to Prefecture">
+        <name>
+          <text>intplace_Send Appeal to Prefecture</text>
+        </name>
+      </place>
+      <transition id="Notify Result Appeal to Offender">
+        <name>
+          <text>Notify Result Appeal to Offender</text>
+        </name>
+      </transition>
+      <transition id="hid_44">
+        <name>
+          <text>hid_44</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1f2b8b04-1dbc-4f80-ae69-6384b52e7acc"/>
+      </transition>
+      <transition id="hid_59">
+        <name>
+          <text>hid_59</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="669031b3-c342-484e-a96f-5f37785c8456"/>
+      </transition>
+      <transition id="hid_64">
+        <name>
+          <text>hid_64</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e6fb6212-fc8f-4559-9fdc-a8f66770577d"/>
+      </transition>
+      <transition id="Send Fine">
+        <name>
+          <text>Send Fine</text>
+        </name>
+      </transition>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="11229515-ac9b-44aa-b2ec-44969bb48e43"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3520e820-a2f3-47bf-87ad-d4cbe7e6cb4a"/>
+      </transition>
+      <transition id="hid_65">
+        <name>
+          <text>hid_65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1a16c81d-5d22-45a7-9f3d-2647912796b2"/>
+      </transition>
+      <transition id="hid_66">
+        <name>
+          <text>hid_66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="da5786f1-3c95-4a5d-8bc6-eb60a11be826"/>
+      </transition>
+      <transition id="hid_35">
+        <name>
+          <text>hid_35</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="50cc32fb-297f-44d7-8cd1-a9a3aa3c3030"/>
+      </transition>
+      <transition id="hid_47">
+        <name>
+          <text>hid_47</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="06cc1e41-27ac-43d4-8618-7b49b8ef18fb"/>
+      </transition>
+      <transition id="hid_48">
+        <name>
+          <text>hid_48</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c1b382f5-4a0f-4991-8373-5d1c573271e9"/>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="576c896c-c5a3-4afc-a41d-22b0e6abfcd5"/>
+      </transition>
+      <transition id="hid_38">
+        <name>
+          <text>hid_38</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bb3810e5-7d5f-43c4-b679-d91aea15a589"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d6de3e6d-5c96-4269-b696-52a6b7c0fd4e"/>
+      </transition>
+      <transition id="Insert Fine Notification">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+      </transition>
+      <transition id="hid_36">
+        <name>
+          <text>hid_36</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="49831652-5315-4776-adc8-305ee4292f6a"/>
+      </transition>
+      <transition id="Payment">
+        <name>
+          <text>Payment</text>
+        </name>
+      </transition>
+      <transition id="Send Appeal to Prefecture">
+        <name>
+          <text>Send Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="hid_40">
+        <name>
+          <text>hid_40</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="faa249ba-4760-46e2-b220-0e9b706325ae"/>
+      </transition>
+      <transition id="hid_6">
+        <name>
+          <text>hid_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="acdf8b45-4596-4736-9543-157128452c79"/>
+      </transition>
+      <transition id="hid_43">
+        <name>
+          <text>hid_43</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="836d0e66-0f60-4b00-88e6-132ee966db9b"/>
+      </transition>
+      <transition id="hid_54">
+        <name>
+          <text>hid_54</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="374f02b8-513c-4735-b2a6-573ad825afe4"/>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f1cf078c-ab1c-4752-8f14-4bb831a04690"/>
+      </transition>
+      <transition id="Insert Date Appeal to Prefecture">
+        <name>
+          <text>Insert Date Appeal to Prefecture</text>
+        </name>
+      </transition>
+      <transition id="Add penalty">
+        <name>
+          <text>Add penalty</text>
+        </name>
+      </transition>
+      <transition id="hid_55">
+        <name>
+          <text>hid_55</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f7c42bf6-c520-4987-9f42-8476da6d6569"/>
+      </transition>
+      <transition id="hid_51">
+        <name>
+          <text>hid_51</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="98cadc27-7325-4336-8862-7664b39a4644"/>
+      </transition>
+      <transition id="hid_12">
+        <name>
+          <text>hid_12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3be723b5-0ff5-4f30-8c2c-9e763a9bfa8d"/>
+      </transition>
+      <transition id="hid_31">
+        <name>
+          <text>hid_31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7b870133-2fa9-46ee-911b-d6d29f5ff15a"/>
+      </transition>
+      <transition id="hid_32">
+        <name>
+          <text>hid_32</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9b653284-4929-4d64-a4bf-2e3f740352ae"/>
+      </transition>
+      <transition id="hid_52">
+        <name>
+          <text>hid_52</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0b879a4f-8b05-4fdd-b515-58e0494298ee"/>
+      </transition>
+      <transition id="Receive Result Appeal from Prefecture">
+        <name>
+          <text>Receive Result Appeal from Prefecture</text>
+        </name>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2700b236-d478-4c01-b029-98918c606d72"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="89dbd00e-7f88-4925-a25e-8c8f15921495"/>
+      </transition>
+      <transition id="hid_39">
+        <name>
+          <text>hid_39</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="08e2d06e-697c-4f26-81cf-ef1f02d89c35"/>
+      </transition>
+      <transition id="hid_61">
+        <name>
+          <text>hid_61</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5f37b251-e6b6-45dc-a923-1f1547c74f05"/>
+      </transition>
+      <transition id="hid_53">
+        <name>
+          <text>hid_53</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="60138e1d-fc2f-4dfe-b051-cf5d5fcdc57e"/>
+      </transition>
+      <transition id="hid_46">
+        <name>
+          <text>hid_46</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="933d1ab3-0261-473c-be94-fa9421f8008b"/>
+      </transition>
+      <transition id="hid_62">
+        <name>
+          <text>hid_62</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cf3afde9-7523-4332-a09c-732d6508b699"/>
+      </transition>
+      <transition id="Appeal to Judge">
+        <name>
+          <text>Appeal to Judge</text>
+        </name>
+      </transition>
+      <transition id="hid_10">
+        <name>
+          <text>hid_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b2a4d3d8-22b2-4d48-bb26-0cfe80335ca8"/>
+      </transition>
+      <transition id="hid_63">
+        <name>
+          <text>hid_63</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bb9c5e95-12f4-4c55-9aa5-7972089ffe9c"/>
+      </transition>
+      <transition id="hid_67">
+        <name>
+          <text>hid_67</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b626250c-a078-483c-891c-181c3655b5c0"/>
+      </transition>
+      <transition id="hid_37">
+        <name>
+          <text>hid_37</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6c9a3fb5-0893-4d91-9585-0b0d60ab678e"/>
+      </transition>
+      <transition id="Send for Credit Collection">
+        <name>
+          <text>Send for Credit Collection</text>
+        </name>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="30d15fbb-ee5d-4b29-9f55-2209a756f8e3"/>
+      </transition>
+      <transition id="hid_21">
+        <name>
+          <text>hid_21</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2c1e9f7d-3bcf-4faf-9657-c2829b18b2f6"/>
+      </transition>
+      <transition id="hid_30">
+        <name>
+          <text>hid_30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6ad9286d-833f-49f5-a93e-2d6b82ea291a"/>
+      </transition>
+      <transition id="hid_34">
+        <name>
+          <text>hid_34</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fbc76367-8b64-4830-80ee-172494e1571d"/>
+      </transition>
+      <transition id="Create Fine">
+        <name>
+          <text>Create Fine</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5f8ec6e6-742e-4d2d-832c-ecad5c94161e"/>
+      </transition>
+      <transition id="hid_22">
+        <name>
+          <text>hid_22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6ea542c8-9b8c-4e9e-832d-8269480fdb63"/>
+      </transition>
+      <transition id="hid_42">
+        <name>
+          <text>hid_42</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="16cfad64-747b-47ae-ae08-bf46e4575e8b"/>
+      </transition>
+      <arc id="5013820416" source="source0" target="hid_23"/>
+      <arc id="5013824000" source="hid_23" target="pre_Send Appeal to Prefecture"/>
+      <arc id="5013479936" source="Insert Fine Notification" target="intplace_Insert Fine Notification"/>
+      <arc id="5013483520" source="intplace_Receive Result Appeal from Prefecture" target="hid_63"/>
+      <arc id="13632144896" source="hid_39" target="pre_Add penalty"/>
+      <arc id="5013815824" source="hid_3" target="pre_Payment"/>
+      <arc id="5013822992" source="Create Fine" target="intplace_Create Fine"/>
+      <arc id="5013475344" source="intplace_Appeal to Judge" target="hid_55"/>
+      <arc id="13632143888" source="intplace_Notify Result Appeal to Offender" target="hid_67"/>
+      <arc id="5013829152" source="splace_in_Payment_Create Fine_2" target="hid_6"/>
+      <arc id="5013481504" source="hid_42" target="splace_in_Payment_Insert Fine Notification_0"/>
+      <arc id="5013474336" source="hid_61" target="sink0"/>
+      <arc id="4743517744" source="pre_Send Fine" target="Send Fine"/>
+      <arc id="5013824560" source="splace_in_Payment_Create Fine_2" target="hid_7"/>
+      <arc id="5013828144" source="splace_in_Payment_Insert Fine Notification_0" target="hid_8"/>
+      <arc id="5013820976" source="intplace_Create Fine" target="hid_31"/>
+      <arc id="13632145456" source="hid_51" target="pre_Send for Credit Collection"/>
+      <arc id="5013486656" source="hid_44" target="splace_in_Send Appeal to Prefecture_Insert Date Appeal to Prefecture_0"/>
+      <arc id="13632144448" source="hid_54" target="pre_Send for Credit Collection"/>
+      <arc id="5013829712" source="splace_in_Payment_Send Fine_2" target="hid_7"/>
+      <arc id="5013818960" source="hid_14" target="pre_Insert Date Appeal to Prefecture"/>
+      <arc id="5013482064" source="intplace_Add penalty" target="hid_51"/>
+      <arc id="5013828704" source="hid_8" target="pre_Payment"/>
+      <arc id="5013821536" source="source0" target="hid_15"/>
+      <arc id="5013481056" source="intplace_Payment" target="hid_37"/>
+      <arc id="13632146016" source="splace_in_Receive Result Appeal from Prefecture_Add penalty_0" target="Receive Result Appeal from Prefecture"/>
+      <arc id="5013831280" source="hid_4" target="pre_Payment"/>
+      <arc id="5013816944" source="pre_Appeal to Judge" target="Appeal to Judge"/>
+      <arc id="5013827696" source="intplace_Create Fine" target="hid_30"/>
+      <arc id="5013483632" source="Payment" target="intplace_Payment"/>
+      <arc id="13632145008" source="hid_62" target="pre_Notify Result Appeal to Offender"/>
+      <arc id="4743519872" source="source0" target="hid_2"/>
+      <arc id="5013826688" source="splace_in_Add penalty_0" target="hid_16"/>
+      <arc id="5013471872" source="intplace_Add penalty" target="hid_47"/>
+      <arc id="5013479040" source="hid_48" target="splace_in_Payment_Add penalty_0"/>
+      <arc id="13632144000" source="hid_67" target="sink0"/>
+      <arc id="5013478032" source="hid_35" target="splace_in_Payment_Send Fine_2"/>
+      <arc id="5013821088" source="splace_in_Payment_Add penalty_0" target="hid_4"/>
+      <arc id="5013817504" source="pre_Add penalty" target="Add penalty"/>
+      <arc id="13632145568" source="hid_44" target="pre_Add penalty"/>
+      <arc id="5013477024" source="hid_37" target="splace_in_Payment_Payment_0"/>
+      <arc id="5013480608" source="hid_43" target="sink0"/>
+      <arc id="5013473440" source="intplace_Notify Result Appeal to Offender" target="hid_65"/>
+      <arc id="5013820080" source="pre_Insert Date Appeal to Prefecture" target="Insert Date Appeal to Prefecture"/>
+      <arc id="5013476016" source="intplace_Insert Date Appeal to Prefecture" target="hid_46"/>
+      <arc id="5013472432" source="intplace_Appeal to Judge" target="hid_59"/>
+      <arc id="5013486768" source="intplace_Receive Result Appeal from Prefecture" target="hid_62"/>
+      <arc id="13632144560" source="hid_47" target="pre_Notify Result Appeal to Offender"/>
+      <arc id="5013819072" source="splace_in_Payment_Insert Fine Notification_0" target="hid_4"/>
+      <arc id="5013826240" source="pre_Send for Credit Collection" target="Send for Credit Collection"/>
+      <arc id="5013475008" source="intplace_Insert Fine Notification" target="hid_39"/>
+      <arc id="5013478592" source="hid_47" target="splace_in_Receive Result Appeal from Prefecture_Add penalty_0"/>
+      <arc id="5013482176" source="intplace_Add penalty" target="hid_52"/>
+      <arc id="13632143552" source="intplace_Notify Result Appeal to Offender" target="hid_66"/>
+      <arc id="5013818064" source="source0" target="hid_10"/>
+      <arc id="5013825232" source="hid_21" target="pre_Appeal to Judge"/>
+      <arc id="5013474000" source="intplace_Insert Date Appeal to Prefecture" target="hid_44"/>
+      <arc id="4743524576" source="source0" target="Create Fine"/>
+      <arc id="5013824224" source="hid_6" target="pre_Payment"/>
+      <arc id="5013827808" source="splace_in_Payment_Payment_0" target="hid_6"/>
+      <arc id="5013831392" source="pre_Send Appeal to Prefecture" target="Send Appeal to Prefecture"/>
+      <arc id="5013817056" source="hid_30" target="splace_in_Payment_Create Fine_2"/>
+      <arc id="5013476576" source="hid_46" target="sink0"/>
+      <arc id="5013487328" source="hid_63" target="sink0"/>
+      <arc id="13632145120" source="hid_64" target="pre_Appeal to Judge"/>
+      <arc id="13632144112" source="hid_34" target="pre_Insert Fine Notification"/>
+      <arc id="5013482736" source="hid_59" target="sink0"/>
+      <arc id="5013479152" source="Receive Result Appeal from Prefecture" target="intplace_Receive Result Appeal from Prefecture"/>
+      <arc id="5013478144" source="intplace_Add penalty" target="hid_48"/>
+      <arc id="5013474560" source="hid_53" target="splace_in_Add penalty_0"/>
+      <arc id="5013824784" source="pre_Insert Fine Notification" target="Insert Fine Notification"/>
+      <arc id="5013473552" source="intplace_Send Fine" target="hid_35"/>
+      <arc id="13632145680" source="intplace_Add penalty" target="hid_22"/>
+      <arc id="5013480720" source="Send Appeal to Prefecture" target="intplace_Send Appeal to Prefecture"/>
+      <arc id="5013830944" source="hid_22" target="pre_Send Appeal to Prefecture"/>
+      <arc id="5013476128" source="hid_32" target="sink0"/>
+      <arc id="13632144672" source="hid_53" target="pre_Payment"/>
+      <arc id="5013483296" source="Send for Credit Collection" target="sink0"/>
+      <arc id="5013822768" source="hid_16" target="pre_Add penalty"/>
+      <arc id="5013821760" source="splace_in_Payment_Add penalty_0" target="hid_3"/>
+      <arc id="13632146240" source="intplace_Send Appeal to Prefecture" target="Receive Result Appeal from Prefecture"/>
+      <arc id="5013481280" source="hid_54" target="splace_in_Add penalty_0"/>
+      <arc id="5013477696" source="intplace_Send Appeal to Prefecture" target="hid_61"/>
+      <arc id="5013831504" source="source0" target="hid_12"/>
+      <arc id="13632145232" source="hid_65" target="pre_Payment"/>
+      <arc id="5013476688" source="hid_55" target="splace_in_Add penalty_0"/>
+      <arc id="13632144224" source="hid_55" target="pre_Insert Date Appeal to Prefecture"/>
+      <arc id="5013479264" source="intplace_Notify Result Appeal to Offender" target="hid_64"/>
+      <arc id="5013818736" source="splace_in_Payment_Send Fine_2" target="hid_8"/>
+      <arc id="5013474672" source="hid_38" target="sink0"/>
+      <arc id="5013481840" source="Appeal to Judge" target="intplace_Appeal to Judge"/>
+      <arc id="5013484416" source="Send Fine" target="intplace_Send Fine"/>
+      <arc id="13632145792" source="intplace_Insert Fine Notification" target="hid_14"/>
+      <arc id="5013480832" source="intplace_Insert Fine Notification" target="hid_43"/>
+      <arc id="5013827472" source="hid_12" target="pre_Insert Fine Notification"/>
+      <arc id="5013831056" source="splace_in_Send Appeal to Prefecture_Insert Date Appeal to Prefecture_0" target="hid_22"/>
+      <arc id="5013823888" source="pre_Notify Result Appeal to Offender" target="Notify Result Appeal to Offender"/>
+      <arc id="13632144784" source="hid_31" target="pre_Send Fine"/>
+      <arc id="5013483408" source="hid_52" target="sink0"/>
+      <arc id="5013472656" source="intplace_Appeal to Judge" target="hid_54"/>
+      <arc id="5013478816" source="intplace_Send Fine" target="hid_34"/>
+      <arc id="5013471648" source="intplace_Insert Fine Notification" target="hid_40"/>
+      <arc id="5013482400" source="intplace_Insert Fine Notification" target="hid_42"/>
+      <arc id="5013481392" source="intplace_Payment" target="hid_38"/>
+      <arc id="5013828032" source="hid_7" target="pre_Payment"/>
+      <arc id="5013820864" source="hid_10" target="pre_Payment"/>
+      <arc id="13632145344" source="hid_66" target="pre_Send for Credit Collection"/>
+      <arc id="5013480384" source="hid_36" target="sink0"/>
+      <arc id="5013473216" source="Add penalty" target="intplace_Add penalty"/>
+      <arc id="5013483968" source="intplace_Appeal to Judge" target="hid_53"/>
+      <arc id="4743523792" source="pre_Payment" target="Payment"/>
+      <arc id="13632144336" source="hid_40" target="pre_Appeal to Judge"/>
+      <arc id="5013475792" source="intplace_Create Fine" target="hid_32"/>
+      <arc id="4743522784" source="hid_2" target="pre_Send Fine"/>
+      <arc id="5013829600" source="hid_15" target="pre_Insert Date Appeal to Prefecture"/>
+      <arc id="5013478368" source="intplace_Send Fine" target="hid_36"/>
+      <arc id="5013485536" source="Notify Result Appeal to Offender" target="intplace_Notify Result Appeal to Offender"/>
+      <arc id="5013828592" source="splace_in_Payment_Payment_0" target="hid_3"/>
+      <arc id="5013817840" source="source0" target="hid_21"/>
+      <arc id="5013473776" source="Insert Date Appeal to Prefecture" target="intplace_Insert Date Appeal to Prefecture"/>
+      <arc id="13632145904" source="intplace_Send Fine" target="hid_14"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
